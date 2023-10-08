@@ -18,5 +18,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("", views.index, name="index")
+    path("", views.index, name="index"),
+    path("kiryu", views.kiryu, name="kiryu"),
+    path("majima", views.majima, name="majima")
 ]
